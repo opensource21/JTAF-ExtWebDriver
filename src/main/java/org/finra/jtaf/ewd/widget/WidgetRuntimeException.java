@@ -24,7 +24,7 @@ import org.openqa.selenium.By;
  * {@link RuntimeException}.
  * 
  */
-public class WidgetRuntimeException extends Exception {
+public class WidgetRuntimeException extends RuntimeException {
 
     private static final long serialVersionUID = 157818658900692467L;
 
